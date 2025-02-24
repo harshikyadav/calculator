@@ -2,7 +2,7 @@
     color: whitesmoke;
     background-color: black;
     position: absolute;
-    bottom: 0;
+    top: 100%;
     width: 100%;
     text-align: center;
     font-size: x-large;
