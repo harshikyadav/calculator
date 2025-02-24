@@ -1,0 +1,12 @@
+.btn{
+    height: 90%;
+    font-size: xx-large;
+    width:15%;
+    border-radius: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 0;
+}

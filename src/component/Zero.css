@@ -1,0 +1,13 @@
+.zero{
+    box-sizing: border-box;
+    height: 90%;
+    font-size: xx-large;
+    width:40%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 6.4%;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 0;
+}
