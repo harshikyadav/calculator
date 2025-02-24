@@ -17,7 +17,8 @@ const calculator = () => {
         if(e.target.tagName=='BUTTON'){
           setData((prev)=>{
             if(e.target.innerText==='⌫'){
-               let temp=prev.slice(0,-1);
+               let prevx=String(prev);
+               let temp=prevx.slice(0,-1);
                return temp;
             }
             if(e.target.innerText=='C'){
@@ -27,7 +28,7 @@ const calculator = () => {
               try{
                 return eval(prev);
               }catch(err){
-                
+
                 return 'enter an valid input expression'
               }
             }
